@@ -7,7 +7,7 @@ The assessment involves accessing a provided PostgreSQL database and returning r
 3. PostgreSQL must be used
 
 ## Assessment Details
-The provided database will contain multiple tables; the ER model for it is provided below.
+The provided database will contain multiple tables; the ER model for it is provided below. The database is named `dvdrental`.
 
 ![image](https://user-images.githubusercontent.com/21364333/197232749-2ad14346-40a1-4b21-94a1-713ed23cdd5f.png)
 
@@ -50,7 +50,7 @@ Finally do not over think/work this assessment, we hope to get an idea of how yo
 Use the following docker image to create a restored postgreSQL database with workable data: https://hub.docker.com/r/sensoteq/tech-assessment-db
 
 For example:
-`docker run -p 8989:5432 -e POSTGRES_PASSWORD=postgres sensoteq/tech-assessment-db:latest`
+`docker run -p 8989:5432 -e POSTGRES_PASSWORD=postgres -d sensoteq/tech-assessment-db:latest`
 
 This will create a docker container accessible via port 8989 and a user with the login credentials of postgres:postgres.
 You are entirely free to adjust your docker containers run parameters.
