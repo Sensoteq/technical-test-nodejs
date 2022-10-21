@@ -16,7 +16,7 @@ Not all the tables in this diagram will be needed but pay attention when interac
 ## Requirements
 The following requirements should be met by your API. For the sake of this assessment four separate endpoints should be developed, one for each requirement.
 
-1. Customers wish to know all the movies in a category - given the category return a list of films. The `film_id`, `title`, `description` and `rental_rate` should be returned. The GET request will have the query string parameters specified below.
+1. Customers wish to know all the movies in a category - given the category return a list of films. The `film_id`, `title`, `description` and `rental_rate` should be returned. The `GET` request will have the query string parameters specified below.
 
    - `category_name` - The name of the category which should be searched for.
 
