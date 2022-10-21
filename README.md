@@ -31,7 +31,7 @@ The following requirements should be met by your API. For the sake of this asses
    - `city_id` - the ID of the city in which the customer lives
    - `postal_code` - The postal code of the customer
    
-3. Deletion of a customer is occurring due to GDPR issues, their rentals and payments cannot be deleted but their customer record and address must be removed. The endpoint should take the customer ID for deletion. The DELETE request will contain the parameters specified below.
+3. Deletion of a customer is occurring due to GDPR issues, their rentals and payments cannot be deleted but their customer record and address must be removed. The endpoint should take the customer ID for deletion. The `DELETE` request will contain the parameters specified below.
    - `customer_id` - The ID of the customer to be deleted.
    
 4. Server-side searching for films is required, given some or all of the following, an incomplete (or complete) film title or a length that the film must be below. For example a title of "to" and length 60 might be provided, this would return 6 films. When returning the category and language of the film should be included. The `GET` request will have the query string parameters specified below.
